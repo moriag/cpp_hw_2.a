@@ -3,7 +3,7 @@
 namespace family{
 
     Tree::Tree(string name){
-        root = name;
+        this->root = name;
     }
     Tree Tree::addFather(string name, string father){
             return Tree("");
@@ -11,17 +11,15 @@ namespace family{
     Tree Tree::addMother(string name, string mother){
             return Tree("");
     }
-    void Tree::remove(string name){
-            
+    void Tree::remove(string name){;
     }
-    void Tree::display(){
-
+    void Tree::display(){;
     }
     string Tree::relation(string name){
-            return "";
+        return name;
     }
     string Tree::find(string relation){
-            return "";
+        return relation;
     }
    
 }
